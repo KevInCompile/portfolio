@@ -27,7 +27,6 @@ import Theme from "@/icons/themeSwitch.astro";
 </style>
 
 <script>
-  const theme = localStorage.getItem("theme");
   const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
     : "light";
@@ -39,5 +38,5 @@ import Theme from "@/icons/themeSwitch.astro";
     localStorage.setItem("theme", value);
   }
 
-  updateTheme(theme as string);
+  updateTheme("dark");
 </script>
