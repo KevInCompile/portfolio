@@ -27,8 +27,15 @@ import Theme from "@/icons/themeSwitch.astro";
 </style>
 
 <script>
+  const theme = localStorage.getItem("theme");
+  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+
   function updateTheme(value: string) {
-    document.documentElement.classList.add(value);
+    const theme = value === "system" ? systemTheme : value;
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(theme);
     localStorage.setItem("theme", value);
   }
 
