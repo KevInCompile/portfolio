@@ -1,0 +1,43 @@
+---
+import Theme from "@/icons/themeSwitch.astro";
+---
+
+<!-- <div class="no-print inline-flex items-center">
+  <div class="flex items-center gap-1">
+    <option value="system">System</option>
+    <option value="dark">Dark</option>
+    <option value="light">Light</option>
+  </div>
+</div> --><!-- <div class="group/theme flex items-center gap-2"> --><!-- <label
+    for="themeSwitch"
+    class="flex items-center gap-1 text-sm font-medium leading-6 text-skin-base transition-transform ease-in-out group-hover/theme:rotate-45"
+  > --><!-- <Theme /> --><!-- </div> --><!-- <select
+  id="themeSwitch"
+  name="themeSwitch"
+  class="block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-skin-base ring-1 ring-inset ring-skin-muted focus:ring-2 focus:ring-skin-hue sm:text-sm sm:leading-6"
+>
+  <option value="system">System</option>
+  <option value="dark">Dark</option>
+  <option value="light">Light</option>
+</select> -->
+<style>
+  :global(.dark) {
+    color-scheme: dark;
+  }
+</style>
+
+<script>
+  const theme = localStorage.getItem("theme");
+  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+
+  function updateTheme(value: string) {
+    const theme = value === "system" ? systemTheme : value;
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(theme);
+    localStorage.setItem("theme", value);
+  }
+
+  updateTheme(theme as string);
+</script>

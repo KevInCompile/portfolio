@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Kevin Barón",
+    "label": "Front End Developer",
+    "image": "/foto.png",
+    "email": "kevcoc10@gmail.com",
+    "phone": "+57 3134652605",
+    "summary": "Front End Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "theme": "default",
+    "location": {
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Kevin Barón",
+        "url": "https://www.linkedin.com/in/kevin-bar%C3%B3n-94278b266/"
+      },
+      {
+        "network": "GitHub",
+        "username": "KevInCompile",
+        "url": "https://github.com/KevInCompile"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Educar Editores SAS",
+      "position": "Web Programmer",
+      "location_type": "Hybrid",
+      "location": "Cota, Cundinamarca",
+      "url": "https://educar.com.co",
+      "startDate": "2021-10-20",
+      "endDate": null,
+      "summary": "Developing and maintaining web applications using ReactJS and NextJS. Collaborating with the team to implement new features and fix bugs.",
+      "highlights": ["Improved website performance by optimizing code"],
+      "responsibilities": [
+        "Configuration and deployment of applications in production environments using services such as Azure and AWS.",
+        "Creating reusable and efficient components using React to develop interactive and dynamic user interfaces.",
+        "Implementation of search engine optimization (SEO) techniques by leveraging the server-side rendering (SSR) capabilities of NextJS.",
+        "Database maintenance"
+      ],
+      "skills": ["React", "Tailwind", "GitHub", "NextJS", "TypeScript", "MySQL"]
+    },
+    {
+      "name": "Labbrands",
+      "position": "IT Assistant",
+      "location_type": "On site",
+      "location": "Tenjo, Cundinamarca",
+      "url": "https://labbrands.com",
+      "startDate": "2019-01-10",
+      "endDate": "2020-03-17",
+      "summary": "Configure equipment, install programs, update operating systems and ensure that everything works correctly.",
+      "responsibilities": [
+        "Network Administration",
+        "Technical support",
+        "Backup and data recovery"
+      ],
+      "skills": ["SQL", "Cisco"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "SENA",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+      "area": "Analysis and development of information systems - Tecnologo",
+      "studyType": "Bachelor",
+      "startDate": "2020-02-01",
+      "endDate": "2022-05-1",
+      "courses": [
+        "CS101 - Introduction to Computer Science",
+        "CS102 - Data Structures"
+      ]
+    },
+    {
+      "institution": "SENA",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+      "area": "Software programming - Tecnico",
+      "studyType": "Master",
+      "startDate": "2018-02-01",
+      "endDate": "2019-05-01",
+      "courses": [
+        "SE201 - Advanced Software Development",
+        "SE202 - Software Architecture and Design"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": "Expert",
+      "keywords": ["Design", "UI"]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "A2"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["Frontend", "Interfaces"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "isActive": false,
+      "description": "A personal portfolio website to showcase my projects and skills.",
+      "highlights": ["Built with Astro and Tailwind CSS"],
+      "github": "https://github.com"
+    },
+    {
+      "name": "Ghost Finance",
+      "isActive": true,
+      "description": "A web application that helps you organize your finances",
+      "highlights": [
+        "Built with NextJS, Prisma, TailwindCSS, Typescript",
+        "Responsive design"
+      ],
+      "url": "https://flow-finance-pink.vercel.app/"
+    }
+  ]
+}
