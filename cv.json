@@ -193,6 +193,7 @@
       "name": "Ghost Finance",
       "isActive": true,
       "description": "A web application that helps you organize your finances",
+      "github": "https://github.com/KevInCompile/flow-finance/",
       "highlights": [
         "Built with NextJS, Prisma, TailwindCSS, Typescript",
         "Responsive design"
