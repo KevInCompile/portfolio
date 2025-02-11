@@ -27,13 +27,33 @@
   },
   "work": [
     {
+      "name": "Inxait",
+      "position": "NextJS Developer Senior",
+      "location_type": "Remote",
+      "location": "Bogotá",
+      "url": "https://www.inxaitcorp.com/",
+      "startDate": "2024-12-02",
+      "endDate": null,
+      "summary": "Developing web applications with nextJS",
+      "highlights": ["Built with NextJS, TailwindCSS, Typescript"],
+      "responsibilities": [
+        "Developing and maintaining the frontend of an e-commerce platform using NextJS.",
+        "Implementing responsive design to ensure the platform is accessible on all devices.",
+        "Collaborating with backend developers to integrate APIs and ensure seamless data flow.",
+        "Optimizing the platform for performance and scalability.",
+        "Ensuring cross-browser compatibility and fixing any issues that arise.",
+        "Participating in code reviews and providing constructive feedback to peers."
+      ],
+      "skills": ["NextJS", "Tailwind", "TypeScript", "Git"]
+    },
+    {
       "name": "Educar Editores SAS",
       "position": "Web Programmer",
       "location_type": "Hybrid",
       "location": "Cota, Cundinamarca",
       "url": "https://educar.com.co",
       "startDate": "2021-10-20",
-      "endDate": null,
+      "endDate": "2024-12-01",
       "summary": "Developing and maintaining web applications using ReactJS and NextJS. Collaborating with the team to implement new features and fix bugs.",
       "highlights": ["Improved website performance by optimizing code"],
       "responsibilities": [
