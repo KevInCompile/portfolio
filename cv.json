@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kevin Barón",
     "label": "Front End Developer",
-    "image": "/foto.png",
+    "image": "/photo2.jpeg",
     "email": "01kevinesteban@gmail.com",
     "phone": "+57 3134652605",
     "summary": "Front End Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
@@ -40,11 +40,12 @@
         "Developing and maintaining the frontend of an e-commerce platform using NextJS.",
         "Implementing responsive design to ensure the platform is accessible on all devices.",
         "Collaborating with backend developers to integrate APIs and ensure seamless data flow.",
+        "Integrating third-party services such as Stripe for payments, Algolia for search, Google Cloud for infrastructure, and Shippo for shipping logistics.",
         "Optimizing the platform for performance and scalability.",
         "Ensuring cross-browser compatibility and fixing any issues that arise.",
         "Participating in code reviews and providing constructive feedback to peers."
       ],
-      "skills": ["NextJS", "Tailwind", "TypeScript", "Git"]
+      "skills": ["NextJS", "Tailwind", "TypeScript", "Git", "Docker", "MySQL", "PHP", "Laravel", "Stripe", "Algolia", "Google Cloud", "Shippo"]
     },
     {
       "name": "Educar Editores SAS",
@@ -82,6 +83,18 @@
     }
   ],
   "education": [
+    {
+      "institution": "Corporación Universitaria Iberoamericana",
+      "url":"https://www.ibero.edu.co/",
+      "area": "Software Enginneering - Ingenieria",
+      "studyType": "Enginner",
+      "startDate": "2024-02-10",
+      "endDate": null,
+      "courses": [
+        "SE301 - Software Engineering Principles",
+        "SE302 - Software Development Lifecycle"  
+      ]
+    },
     {
       "institution": "SENA",
       "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
